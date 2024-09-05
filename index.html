@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign UP Page</title>
+</head>
+<body>
+  <main>
+    <section class="image-section">
+      <div>
+        <img src="images/odin-logo.png" alt="">
+        <p class="odin">ODIN</p>
+      </div>
+      <p class="photo-credit"><a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank" noopener noreferrer>Photo by: Halie West on unsplash.com</a></p>
+    </section>
+    <section class="form-section">
+      <div>
+        <h2>
+          This is not a real online service! You need something like this in your life to help you realize your deepest dreams.
+        </h2>
+        <h3>You <em>know</em> you want to</h3>
+      </div>
+      <form action="#" method="post">
+        <section>
+          <h4>Let's do this!</h4>
+          <div>
+            <ul>
+              <li>
+                <label for="firstname">first name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="John" autofocus>
+              </li>
+              <li class="last">
+                <label for="lastname">last name</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Doe">
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="johndoe@example.com">
+              </li>
+              <li class="number">
+                <label for="number">phone number</label>
+                <input type="tel" name="number" id="number" placeholder="054 555 5555">
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <label for="password">password</label>
+                <input type="password" name="password" id="password" required>
+                <small>Password do not match</small>
+              </li>
+              <li class="conpwd">
+                <label for="conpassword">confirm password</label>
+                <input type="password" name="conpassword" id="conpassword">
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="button">
+          <button type="submit">create account</button>
+        </div>
+        <div class="link">
+          Already have an account? <a href="#">Log in</a>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
