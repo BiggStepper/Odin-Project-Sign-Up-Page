@@ -122,14 +122,14 @@ input:focus {
 small {
   font-size: 0.8rem;
   color: red;
-  display: none;
+  opacity: 0;
 }
 
 input:invalid {
   border: 1px solid red;
 
   + small {
-    display: block;
+    opacity: 1;
   }
 }
 
